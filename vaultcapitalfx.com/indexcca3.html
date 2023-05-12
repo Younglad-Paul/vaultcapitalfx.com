@@ -1,0 +1,362 @@
+
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+ 
+    <title>Register | vaultcapitalfx.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <!-- External CSS libraries -->
+    <link type="text/css" rel="stylesheet" href="../skysailbit.com/auth/assets/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="../skysailbit.com/auth/assets/fonts/font-awesome/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="../skysailbit.com/auth/assets/fonts/flaticon/font/flaticon.css">
+
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" href="images/vaultlogosolo.png" type="image/V-icon" >
+
+    <!-- Google fonts -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800%7CPoppins:400,500,700,800,900%7CRoboto:100,300,400,400i,500,700">
+
+    <!-- Custom Stylesheet -->
+    <link type="text/css" rel="stylesheet" href="../skysailbit.com/auth/assets/css/style.css">
+    <!-- <link rel="stylesheet" type="text/css" id="style_sheet" href="../skysailbit.com/auth/assets/css/skins/default.css"> -->
+    <link rel="styleheet" href="css/exstyling.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+</head>
+<body id="top" style="background:#fff">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TAGCODE"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="page_loader"></div>
+
+<!-- Login 2 start -->
+<div class="login-2 tab-box">
+    <div class="container-fluid">
+        <div class="row">
+            <div  class="col-lg-5 col-md-12 col-pad-0 bg-img none-992" style="overflow:hidden">
+                <div class="obscure" 
+                style="
+    background:#000;
+    width:110%;
+    height:150vh;
+    position:absolute;
+    z-index:-1;
+    opacity: .8;
+                "></div>
+                <div class="informeson" >
+                    <div class="btn-section">
+                        <a href="index.html" class="btns" class="active link-btn">Home</a>
+                        <a href="indexc30b.html?a=login" class="btns" class="active link-btn">Login</a>
+                    </div>
+                    <h3></h3>
+                    <p>CREATE YOUR UNIQUE ACCOUNT</p>
+                </div>
+                
+            </div>
+            
+            <div class="col-lg-7 col-md-12 col-pad-0 bg-color" style="background: rgba(237, 240, 239, 0.1);">
+                <div class="login-inner-form">
+                    <div class="details">
+                         <a 
+    style="color: #fff;
+    background: #11C1A4;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.8rem 1.4rem;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0 0 1rem;
+    letter-spacing: .05rem;
+    width: 200px;
+    display: inline-block;
+    text-align: center;" 
+    href="index.html">Home</a>
+                        <div class="logo">
+      <img src="images/VaultLogo.png" alt="Coincheck Logo">
+    </div>
+
+                  
+
+ <script language=javascript>
+ function checkform() {
+  if (document.regform.fullname.value == '') {
+    alert("Please enter your full name!");
+    document.regform.fullname.focus();
+    return false;
+  }
+ 
+  
+  if (document.regform.username.value == '') {
+    alert("Please enter your username!");
+    document.regform.username.focus();
+    return false;
+  }
+  if (!document.regform.username.value.match(/^[A-Za-z0-9_\-]+$/)) {
+    alert("For username you should use English letters and digits only!");
+    document.regform.username.focus();
+    return false;
+  }
+  if (document.regform.password.value == '') {
+    alert("Please enter your password!");
+    document.regform.password.focus();
+    return false;
+  }
+  if (document.regform.password.value != document.regform.password2.value) {
+    alert("Please check your password!");
+    document.regform.password2.focus();
+    return false;
+  }
+ 
+  
+  if (document.regform.email.value == '') {
+    alert("Please enter your e-mail address!");
+    document.regform.email.focus();
+    return false;
+  }
+  if (document.regform.email.value != document.regform.email1.value) {
+    alert("Please retupe your e-mail!");
+    document.regform.email.focus();
+    return false;
+  }
+
+  for (i in document.regform.elements) {
+    f = document.regform.elements[i];
+    if (f.name && f.name.match(/^pay_account/)) {
+      if (f.value == '') continue;
+      var notice = f.getAttribute('data-validate-notice');
+      var invalid = 0;
+      if (f.getAttribute('data-validate') == 'regexp') {
+        var re = new RegExp(f.getAttribute('data-validate-regexp'));
+        if (!f.value.match(re)) {
+          invalid = 1;
+        }
+      } else if (f.getAttribute('data-validate') == 'email') {
+        var re = /^[^\@]+\@[^\@]+\.\w{2,4}$/;
+        if (!f.value.match(re)) {
+          invalid = 1;
+        }
+      }
+      if (invalid) {
+        alert('Invalid account format. Expected '+notice);
+        f.focus();
+        return false;
+      }
+    }
+  }
+
+  if (document.regform.agree.checked == false) {
+    alert("You have to agree with the Terms and Conditions!");
+    return false;
+  }
+
+  return true;
+ }
+
+ function IsNumeric(sText) {
+  var ValidChars = "0123456789";
+  var IsNumber=true;
+  var Char;
+  if (sText == '') return false;
+  for (i = 0; i < sText.length && IsNumber == true; i++) { 
+    Char = sText.charAt(i); 
+    if (ValidChars.indexOf(Char) == -1) {
+      IsNumber = false;
+    }
+  }
+  return IsNumber;
+ }
+ </script>
+ 
+ 
+  
+<form method=post onsubmit="return checkform()" name="regform" class="quform" >
+    <input type="hidden" name="form_id" value="16823412974302">
+    <input type="hidden" name="form_token" value="d8a360bda80de40a8113eb279c917625">
+    <input type=hidden name=a value="signup">
+    <input type=hidden name=action value="signup">
+
+<div class="row" >
+<div class="col-md-12">
+<div class="form-group">
+<div class="input-group">
+<span class="input-group-addon"><i class="fa fa-user"></i></span>
+<input type=text name=fullname value='' class="form-control" placeholder="Full Name">
+</div>
+</div>
+</div>
+<div class="col-md-12">
+<div class="form-group">
+<div class="input-group">
+<span class="input-group-addon"><i class="fa fa-user"></i></span>
+<input type=text name=username value='' class="form-control" placeholder="Username">
+</div>
+</div>
+</div>
+
+
+<div class="col-md-12">
+<div class="form-group">
+<div class="input-group">
+<span class="input-group-addon"><i class="fa fa-lock"></i></span>
+<input type=password name=password value='' class="form-control" placeholder="Password">
+</div>
+</div>
+</div>
+<div class="col-md-12">
+<div class="form-group">
+<div class="input-group">
+<span class="input-group-addon"><i class="fa fa-lock"></i></span>
+<input type=password name=password2 value='' class="form-control" placeholder="Retype Password">
+</div>
+</div>
+</div>
+
+<p style="color:#000; font-weight: bolder;">Your E-mail Address
+
+<div class="col-md-12">
+<div class="form-group">
+<div class="input-group">
+<span class="input-group-addon"><i class="fa fa-user"></i></span>
+<input type="text" name=email value="" placeholder="Email" size="40" class="wpcf7-form-control wpcf7-text wpcf7-text wpcf7-validates-as-required wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
+</span> 
+</div>
+</div>
+</p><br>
+</div>
+<p style="color:#000; font-weight: bolder;">Retype Your E-mail
+<br>
+
+<div class="col-md-12">
+<div class="form-group">
+<div class="input-group">
+<span class="input-group-addon"><i class="fa fa-user"></i></span>
+<input type="text" name=email1 value="" placeholder="Retype Your E-mail" size="40" class="wpcf7-form-control wpcf7-text wpcf7-text wpcf7-validates-as-required wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
+</span> 
+</div>
+</div>
+</p>
+</div>
+<!-- </div> -->
+
+
+<div class="quform-element">
+<p style="color:#000; font-weight: bolder;">Your Bitcoin Wallet
+<br>
+<div class="col-md-12">
+<div class="form-group">
+<div class="input-group">
+<span class="input-group-addon"><i class="fa fa-lock"></i></span>
+<input type="text" name="pay_account[1000][Wallet]" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-text wpcf7-validates-as-required wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
+</span>
+</div>
+</div>
+</p>
+</div>
+<div class="quform-element">
+<p style="color:#000; font-weight: bolder;">Your Ethereum Wallet
+<br>
+<div class="col-md-12">
+<div class="form-group">
+<div class="input-group">
+<span class="input-group-addon"><i class="fa fa-lock"></i></span>
+<input type="text" name="pay_account[1001][Wallet]" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-text wpcf7-validates-as-required wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
+</span> 
+</div>
+</div>
+
+</p>
+</div>
+<div class="quform-element">
+<p style="color:#000; font-weight: bolder;">Your Tron Wallet
+<br>
+<div class="col-md-12">
+<div class="form-group">
+<div class="input-group">
+<span class="input-group-addon"><i class="fa fa-lock"></i></span>
+<input type="text" name="pay_account[1002][Wallet]" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-text wpcf7-validates-as-required wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
+</span> 
+</div></div>
+</p>
+</div>
+
+<!-- <div class="quform-element">
+<p style="color:#000">Your Upline
+<br>
+<span class="wpcf7-form-control-wrap your-email">
+<input type="text" value="(n/a)" size="40" class="wpcf7-form-control wpcf7-text wpcf7-text wpcf7-validates-as-required wpcf7-validates-as-required" aria-required="true" aria-invalid="false" disabled>
+</span> 
+</p>
+</div> -->
+
+<div class="col-md-12">
+<div class="checkbox clearfix">
+<div class="form-check checkbox-theme">
+<input class="form-check-input" type=checkbox name=agree value=1  id="termsOfService">
+<label class="form-check-label" for="termsOfService" style="color: black;" >
+I agree with <a href="indexa972.html?a=rules" style="color: black;" > Terms and conditions</a>
+</label>
+</div>
+</div>        
+</div>
+
+<div class="col-md-12">
+<button type="submit" class="btn-md btn-theme btn-block" style="color: #fff;
+background: #11C1A4;">Sign Up </button>
+
+</div>
+<div class="quform-loading-wrap"><span class="quform-loading"></span></div>
+</div>
+</p>
+</div>
+</form>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</section>
+</div>
+
+<div class="clear"></div>
+</div>
+
+<div class="clear"></div>
+</div>
+</div>
+
+
+
+</div>
+<!-- gdlr-content -->
+<div class="clear"></div>
+</div>
+<!-- content wrapper -->
+
+
+
+</div>
+
+</div>
+
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Login 2 end -->
+
+<!-- External JS libraries -->
+<script src="auth/assets/js/jquery-2.2.0.min.html"></script>
+<script src="auth/assets/js/popper.min.html"></script>
+<script src="auth/assets/js/bootstrap.min.html"></script>
+<!-- Custom JS Script -->
+
+</body>
+
+</html>
