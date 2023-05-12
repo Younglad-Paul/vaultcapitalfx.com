@@ -1,0 +1,61 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 24 Apr 2023 14:00:33 at https://swiftcapitalfx.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qiC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://swiftcapitalfx.com/ -O1 "C:\My Web Sites\swift" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:00:33	Warning: 	Cache: damaged cache, trying to repair
+14:00:33	Warning: 	Cache: 0 bytes successfully recovered in 0 entries
+14:00:33	Warning: 	Cache: error trying to open the cache
+14:01:56	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/images/icons/favicon.ico (from https://swiftcapitalfx.com/)
+14:01:56	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/linkid.js (from https://swiftcapitalfx.com/)
+14:01:56	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://swiftcapitalfx.com/)
+14:02:36	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/acc/public/register (from https://swiftcapitalfx.com/)
+14:02:36	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/images/skysailbitcert.pdf (from https://swiftcapitalfx.com/)
+14:02:36	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/acc/user/login (from https://swiftcapitalfx.com/)
+14:02:36	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/acc/user/register (from https://swiftcapitalfx.com/)
+14:02:36	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/languages/ja (from https://swiftcapitalfx.com/)
+14:02:36	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/languages/en (from https://swiftcapitalfx.com/)
+14:02:36	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/js/6a961feafa.js (from https://swiftcapitalfx.com/)
+14:02:36	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.html (from https://swiftcapitalfx.com/)
+14:02:36	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/c (from https://connect.facebook.net/en_US/fbevents.js)
+14:02:36	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/b (from https://connect.facebook.net/en_US/fbevents.js)
+14:02:36	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/POST (from https://connect.facebook.net/en_US/fbevents.js)
+14:02:36	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/images/lp/mainpage/icon_buysell_2019.svg (from https://swiftcapitalfx.com/?a=cust&page=about)
+14:02:54	Warning: 	Retry after error -4 (No data (connection closed)) at link assets.stickpng.com/images/580b57fcd9996e24bc43c543.png (from https://swiftcapitalfx.com/?a=rules)
+14:03:14	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/auth/assets/js/jquery-2.2.0.min.js (from https://swiftcapitalfx.com/?a=support)
+14:03:14	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/auth/assets/js/popper.min.js (from https://swiftcapitalfx.com/?a=support)
+14:03:14	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/auth/assets/js/bootstrap.min.js (from https://swiftcapitalfx.com/?a=support)
+14:03:39	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/image/home/home7.jpg (from https://swiftcapitalfx.com/?a=forgot_password)
+14:03:39	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/image/project/bitcoin.png (from https://swiftcapitalfx.com/?a=forgot_password)
+14:03:39	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/image/project/ethereum.png (from https://swiftcapitalfx.com/?a=forgot_password)
+14:03:39	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/image/project/perfectmoney.png (from https://swiftcapitalfx.com/?a=forgot_password)
+14:03:39	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/image/project/payeer.png (from https://swiftcapitalfx.com/?a=forgot_password)
+14:03:39	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/javascript/jquery.min.js (from https://swiftcapitalfx.com/?a=forgot_password)
+14:03:39	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/javascript/jquery.easing.js (from https://swiftcapitalfx.com/?a=forgot_password)
+14:03:39	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/javascript/jquery-waypoints.js (from https://swiftcapitalfx.com/?a=forgot_password)
+14:03:39	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/javascript/parallax.js (from https://swiftcapitalfx.com/?a=forgot_password)
+14:03:39	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/javascript/rev-slider.js (from https://swiftcapitalfx.com/?a=forgot_password)
+14:03:39	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/javascript/owl.carousel.min.js (from https://swiftcapitalfx.com/?a=forgot_password)
+14:03:39	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/javascript/jquery-fancybox.js (from https://swiftcapitalfx.com/?a=forgot_password)
+14:03:39	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/javascript/jquery-countTo.js (from https://swiftcapitalfx.com/?a=forgot_password)
+14:03:39	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/javascript/flexslider.min.js (from https://swiftcapitalfx.com/?a=forgot_password)
+14:03:39	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/javascript/main.js (from https://swiftcapitalfx.com/?a=forgot_password)
+14:03:39	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/rev-slider/js/jquery.themepunch.tools.min.js (from https://swiftcapitalfx.com/?a=forgot_password)
+14:03:39	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/rev-slider/js/jquery.themepunch.revolution.min.js (from https://swiftcapitalfx.com/?a=forgot_password)
+14:03:39	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/rev-slider/js/extensions/revolution.extension.actions.min.js (from https://swiftcapitalfx.com/?a=forgot_password)
+14:03:39	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/rev-slider/js/extensions/revolution.extension.carousel.min.js (from https://swiftcapitalfx.com/?a=forgot_password)
+14:03:39	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/rev-slider/js/extensions/revolution.extension.kenburn.min.js (from https://swiftcapitalfx.com/?a=forgot_password)
+14:03:39	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/rev-slider/js/extensions/revolution.extension.layeranimation.min.js (from https://swiftcapitalfx.com/?a=forgot_password)
+14:03:39	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/rev-slider/js/extensions/revolution.extension.migration.min.js (from https://swiftcapitalfx.com/?a=forgot_password)
+14:03:39	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/rev-slider/js/extensions/revolution.extension.navigation.min.js (from https://swiftcapitalfx.com/?a=forgot_password)
+14:03:39	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/rev-slider/js/extensions/revolution.extension.parallax.min.js (from https://swiftcapitalfx.com/?a=forgot_password)
+14:03:39	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/rev-slider/js/extensions/revolution.extension.slideanims.min.js (from https://swiftcapitalfx.com/?a=forgot_password)
+14:03:39	Error: 	"Not Found" (404) at link https://swiftcapitalfx.com/rev-slider/js/extensions/revolution.extension.video.min.js (from https://swiftcapitalfx.com/?a=forgot_password)
+14:03:39	Warning: 	Retry after error -4 (No data (connection closed)) at link assets.stickpng.com/images/580b57fcd9996e24bc43c543.png (from https://swiftcapitalfx.com/?a=rules)
+14:03:41	Error: 	"No data (connection closed)" (-4) after 2 retries at link assets.stickpng.com/images/580b57fcd9996e24bc43c543.png (from https://swiftcapitalfx.com/?a=rules)
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 8 seconds : 173 links scanned, 124 files written (12956346 bytes overall) [12888406 bytes received at 68555 bytes/sec], 176018 bytes transferred using HTTP compression in 4 files, ratio 26%, 3.0 requests per connection
+(45 errors, 5 warnings, 0 messages)
