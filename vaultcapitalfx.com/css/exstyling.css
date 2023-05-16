@@ -30,7 +30,7 @@
     position: fixed;
 }
 #landing{
-    background-image: url(../images/img_pc_trade_2020_02\ -\ Copy.png);
+    /* background-image: url(../images/land1.png); */
     background-repeat: no-repeat,no-repeat;
     background-position: center;
     background-size: cover;
@@ -39,6 +39,7 @@
     background-blend-mode:darken;
 
 }
+
 #landing2{
     /* background-image: url(../images/img_pc_trade_2020_02\ -\ Copy.png); */
     background-repeat: no-repeat,no-repeat;
@@ -119,6 +120,9 @@
     width:100%;
     height:30vh;
     background:#fff; 
+    /* display:flex; */
+    align-items: center;
+    justify-content: center;
     margin: -2rem 0 0 0;
     padding: 2rem;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -129,7 +133,16 @@
     font-size: 1.5rem;
 }
 
-.slidercon{
+.swiper{
+    width:80%;
+    height:fit-content;
+}
+.swiper-slide p{
+    width:100%;
+}
+
+
+/* .slidercon{
 margin:-5rem 0 0 0;
 padding:0;
 height:100vh;
@@ -199,7 +212,7 @@ justify-content: center;
     margin-left: -337.2%;
 }
 #radio10:checked ~ .first{
-    margin-left: -377.5%;
+    margin-left: -377.5%; */
 } */
 
 /* .manual-btn{
@@ -275,12 +288,38 @@ justify-content: center;
     margin-top:-50%;
     padding-right: 10%;
    }
-      #textanim{
+   #textanim{
     padding-top: 20px;
    }
     .plan101{
     margin-top: 30px;
 }
+
+.social{
+    width:100%;
+    height:80vh;
+    background:#fff; 
+    /* display:flex; */
+    align-items: center;
+    justify-content: center;
+    margin: -2rem 0 0 0;
+    padding: 2rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    overflow: hidden;
+}
+.social h1{
+    text-align:center;
+    font-size: 1.5rem;
+}
+
+.swiper{
+    width:80%;
+    height:fit-content;
+}
+.swiper-slide p{
+    width:100%;
+}
+
 }
 @media (max-width: 768px) {
     
