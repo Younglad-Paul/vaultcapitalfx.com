@@ -235,7 +235,7 @@
 .swiper{
     width:90%;
     height:fit-content;
-    margin-top: -2rem;
+/*     margin-top: -2rem; */
 }
 .swiper-slide p{
     width:100%;
