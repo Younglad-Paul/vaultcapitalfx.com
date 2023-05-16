@@ -196,6 +196,7 @@ var yahoo_retargeting_items = [{item_id: '', category_id: '', price: '', quantit
 </script>
 <span class="loader"></span>
 
+
 <header id="onScrolA" class="header-lp-wrapper" ng-controller="HeaderCtrl" style="background: #08000d; color:#fff;">
   <div class="header-lp-contents">
     <div class="logo" style="width:20rem">
@@ -234,6 +235,68 @@ var yahoo_retargeting_items = [{item_id: '', category_id: '', price: '', quantit
   </div>
 
 </header>
+
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+  "symbols": [
+    {
+      "description": "Gold",
+      "proName": "CURRENCYCOM:GOLD"
+    },
+    {
+      "description": "Bitcoin",
+      "proName": "BITSTAMP:BTCUSD"
+    },
+    {
+      "description": "Ethereum",
+      "proName": "FOREXCOM:ETHUSD"
+    },
+    {
+      "description": "Solana ",
+      "proName": "BITSTAMP:SOLUSD"
+    },
+    {
+      "description": "Doge",
+      "proName": "CRYPTOCAP:DOGE"
+    },
+    {
+      "description": "Gold",
+      "proName": "CURRENCYCOM:GOLD"
+    },
+    {
+      "description": "Binance",
+      "proName": "BINANCE:BTCBUSD"
+    },
+    {
+      "description": "EUR/USD",
+      "proName": "OANDA:EURUSD"
+    },
+    {
+      "description": "US Inflation",
+      "proName": "ECONOMICS:USIRYY"
+    },
+    {
+      "description": "Tesla Stock ",
+      "proName": "NASDAQ:TSLA"
+    },
+    {
+      "description": "Apple Stock",
+      "proName": "NASDAQ:AAPL"
+    }
+  ],
+  "showSymbolLogo": true,
+  "colorTheme": "dark",
+  "isTransparent": false,
+  "displayMode": "adaptive",
+  "locale": "en"
+}
+  </script>
+
+</div>
+<!-- TradingView Widget END -->
 <header class="header-lp-wrapper" ng-controller="HeaderCtrl" style="background: #000; color:#fff;">
   <div class="header-lp-contents">
     <div class="logo" style="width:20rem">
