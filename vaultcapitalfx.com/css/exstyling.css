@@ -41,7 +41,6 @@
 }
 
 #landing2{
-    /* background-image: url(../images/img_pc_trade_2020_02\ -\ Copy.png); */
     background-repeat: no-repeat,no-repeat;
     background-position: center;
     background-size: cover;
@@ -182,6 +181,9 @@
     #head1{
     margin-top:-50%;
     padding-right: 10%;
+   }
+   #bodyAdjust{
+    margin-top: -1rem !important;
    }
    #textanim{
     padding-top: 20px;
