@@ -166,38 +166,13 @@
 }
 
 /* about landing slides */
-.sliderB{
+
+
+
+ #sliderB{
     width:100%;
     height:70vh;
     overflow: hidden;
-}
-.slideB{
-    width:100%;
-    height:100vh;
-    margin-right: 20px;
-    transition:1s;
-    background: red;
-}
-.slideB .content{
-    width:45%;
-    height:100vh;
-    
-}
-
-#radioB1:checked ~ .firstB{
-    margin-left: 0;
-}
-#radioB2:checked ~ .firstB{
-    margin-left: -12%;
-}
-#radioB3:checked ~ .firstB{
-    margin-left: -27%;
-}
-#radioB4:checked ~ .firstB{
-    margin-left: -46.5%;
-}
-#radioB5:checked ~ .firstB{
-    margin-left: -73.5%;
 }
 @media (max-width: 1200px) {
   
@@ -217,13 +192,13 @@
 
 .social{
     width:100%;
-    height:80vh;
+    height:70vh;
     background:#fff; 
     /* display:flex; */
     align-items: center;
     justify-content: center;
-    margin: -2rem 0 0 0;
-    padding: 2rem;
+    margin: -5rem 0 0 0;
+    /* padding: 2rem; */
     font-family:Georgia, 'Times New Roman', Times, serif;
     overflow: hidden;
 }
@@ -235,12 +210,14 @@
 .swiper{
     width:90%;
     height:fit-content;
-/*     margin-top: -2rem; */
+    margin-top: -2rem;
 }
 .swiper-slide p{
     width:100%;
 }
-
+#aboutUs{
+    margin: -15rem 0 0 4rem !important;
+}
 }
 @media (max-width: 768px) {
     
