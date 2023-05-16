@@ -136,7 +136,7 @@
 .swiper{
     width:70%;
     height:fit-content;
-    margin-top: -3rem;
+/*     margin-top: -3rem; */
 }
 .swiper-slide p{
     width:100%;
