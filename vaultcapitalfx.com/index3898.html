@@ -42,7 +42,7 @@
   <meta property="fb:app_id" content="629634010457380"/>
   <meta property="og:site_name" content="VaultcapitalFX" />
   <meta property="og:title" content="The easiest way to invest Bitcoin and cryptocurrency." />
-    <meta property="og:image" content="https://coincheck.com/images/ogp/coincheck_ogp_large_2020.png" />
+    <!-- <meta property="og:image" content="https://coincheck.com/images/ogp/coincheck_ogp_large_2020.png" /> -->
   <meta property="og:description" content="Trading value No.1※1 The number of app users No.1※2※1 No.1 Bitcoin trade volume in Japan! According to jpbitcoin.com (2017 yearly BTC spot trade volume)  ※2 According to the research conducted by App Ape in August-October 2017 (Sample size： 50,000 users)." />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="ja_JP" />
@@ -50,8 +50,8 @@
   <meta name="twitter:site" content="">
   <meta name="twitter:title" content="The easiest way to invest Bitcoin and cryptocurrency.">
   <meta name="twitter:description" content="Trading value No.1※1 The number of app users No.1※2※1 No.1 Bitcoin trade volume in Japan! According to jpbitcoin.com (2017 yearly BTC spot trade volume)  ※2 According to the research conducted by App Ape in August-October 2017 (Sample size： 50,000 users).">
-  <meta name="twitter:image:src" content="https://coincheck.com/images/ogp/coincheck_ogp_large_2020.png">
-  <meta name="twitter:domain" content="coincheck.com">
+  <!-- <meta name="twitter:image:src" content="https://coincheck.com/images/ogp/coincheck_ogp_large_2020.png"> -->
+  <meta name="twitter:domain" content="vaultcapitalfx.com">
 
   <meta name="keywords" content="Bitcoin, Ethereum, Ripple, NEM" />
     <meta name="description" content="Trading value No.1※1 The number of app users No.1※2※1 No.1 Bitcoin trade volume in Japan! According to jpbitcoin.com (2017 yearly BTC spot trade volume)  ※2 According to the research conducted by App Ape in August-October 2017 (Sample size： 50,000 users)." />
@@ -69,7 +69,7 @@
     <link href='images/icons/favicon.html' rel='shortcut icon' type='image/x-icon'>
 
 <link rel="stylesheet" href="css/exstyling.css">
-    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
   <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -284,64 +284,10 @@ var yahoo_retargeting_items = [{item_id: '', category_id: '', price: '', quantit
 
         
         <main id="landing2">
-          <section class="slidercon" style="position:absolute">
-            <div class="sliderB">
-              <div class="slides">
-                <input type=radio name="radio_btn" id="radioB1">
-                <input type=radio name="radio_btn" id="radioB2">
-                <input type=radio name="radio_btn" id="radioB3">
-                <input type=radio name="radio_btn" id="radioB4">
-    
-                <div class="slideB firstB">   
-                  <div class='content' style="background:blue">
-                    <div>
-                      <img src="images/about bg1.jpg" style="width:100%; height:100vh">
-                    </div>
-                  </div>  
-                </div>
-                <div class="slideB">
-                  <div class='content' style="margin-left: -60%;background:blue">
-                    <div>
-                     <img src="images/about bg2.webp" style="width:100%; height:100vh">
-                    </div>
-                  </div>  
-                </div>
-                <div class="slideB">
-                  <div class='content' style="margin-left: -120%;background:blue">
-                    <div>
-                      <img src="images/about bg3.webp" style="width:100%; height:100vh">
-                    </div>
-                  </div>  
-                </div>
-                <div class="slideB">
-                  <div class='content' style="margin-left: -180%;background:blue">
-                    <div>
-                      <img src="images/about bg4.webp" style="width:100%; height:100vh">
-                    </div>
-                  </div>  
-                </div>
-                
-              </div>
-            </div>
-    
-            <!-- <div class="navigation-auto">
-              <div class="auto-btn-1"></div>
-              <div class="auto-btn-2"></div>
-              <div class="auto-btn-3"></div>
-              <div class="auto-btn-4"></div>
-            </div> -->
-    <!-- 
-            <div class="navigation-manual">
-              <label for="radio1" class="manual-btn"></label>
-              <label for="radio2" class="manual-btn"></label>
-              <label for="radio3" class="manual-btn"></label>
-              <label for="radio4" class="manual-btn"></label>
-            </div> -->
-          
-          <!-- </div> -->
-          </section>
-          <div style="position:absolute; width:100%; height:60vh; background:#000; opacity:.8"></div>
-          <div class="main_text" style="color:#fff; z-index:999; position:absolute;margin-left: 16rem;" >
+          <div style="position:absolute; width:100%; height:60vh; background:#000; opacity:.8; z-index: 999;"></div>
+
+
+          <div class="main_text" id="aboutUs" style="color:#fff; z-index:9999; position:absolute;margin-left: 16rem;" >
             <h1 class="main_text_h1">Learn about <br>us</h1>
             <div class="main_text_appeal">Number 1 in crypto Investment *</div>
             <div class="main_text_comment"></div>
@@ -364,6 +310,29 @@ var yahoo_retargeting_items = [{item_id: '', category_id: '', price: '', quantit
               <a href="#">Exchange</a>
             </div>
           </div>
+
+          <section>
+            <div class="swiper" id="sliderB">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <img src="images/about bg1.jpg" style="width:100%; height:100vh">
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/about bg2.webp" style="width:100%; height:100vh">
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/about bg3.webp" style="width:100%; height:100vh">
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/about bg4.webp" style="width:100%; height:100vh">
+                </div>
+        </div>
+                       
+            </div>
+          </section>
+
         </main>
       </div>
       
@@ -470,8 +439,9 @@ VaultCapitalFX allows people to easily invest their Crypto Currency for profit. 
         </div>
       </div>
     </div>
-    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script type="text/javascript" language="javascript">
+      
       /* 
                                                                                                                                                                                                                                                                                                     <![CDATA[ */
       var yahoo_retargeting_id = 'J0YC7G24CU';
@@ -495,14 +465,20 @@ VaultCapitalFX allows people to easily invest their Crypto Currency for profit. 
 
       })
 
-      var counter = 1;
- setInterval(function(){
-  document.getElementById("radioB" +counter).checked = true;
-  counter++;
-  if(counter > 4){
-    counter = 1;
-  }
- },10000)
+      const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  autoplay:{
+    delay: 10000,
+    disableOnInteraction: false,
+  },
+  loop: true,
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
   </script>
 <!-- Smartsupp Live Chat script -->
 
