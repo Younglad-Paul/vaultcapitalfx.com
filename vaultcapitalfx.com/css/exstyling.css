@@ -178,6 +178,17 @@
 }
 @media (max-width: 992px) {
    body{overflow-x:hidden}
+    .loader{
+    background:#000 url(../images/loadinganimation.gif) no-repeat center;
+    justify-content: center;
+    align-items: center;
+    background-size: 20%;
+    width:100%;
+    height:100vh;
+    position:fixed;
+    z-index: 1000;
+    transition:all 4s linear;
+  }
     #head1{
     margin-top:-50%;
     padding-right: 10%;
